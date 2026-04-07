@@ -268,7 +268,6 @@ ul {
 
 .feature-card p {
     color: #aaa;
-    margin-bottom: 3.0rem;
 }
 
 /* Projects Section */
@@ -316,6 +315,7 @@ ul {
 
 .projects-card p {
     color: #aaa;
+    margin-bottom: 3.0rem;
 }
 
 /* Comparison Section */
