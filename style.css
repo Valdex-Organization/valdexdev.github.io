@@ -318,6 +318,14 @@ ul {
     margin-top: 1rem;
 }
 
+.projects-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
 /* Comparison Section */
 .comparison {
     padding: 6rem 2rem;
