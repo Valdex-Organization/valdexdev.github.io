@@ -86,7 +86,9 @@ ul {
     right: -100%;
     width: 300px;
     height: 100%;
-    background: #111;
+    background: rgba(17, 17, 17, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     z-index: 1001;
     transition: right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
@@ -176,6 +178,9 @@ ul {
     font-size: 0.9rem;
     font-weight: 500;
     margin-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .hero-screenshot {
@@ -202,10 +207,12 @@ ul {
     border-radius: 0.5rem;
     font-weight: 600;
     transition: all 0.3s ease;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .btn-primary {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.85);
     color: #000;
 }
 
@@ -216,6 +223,7 @@ ul {
 .btn-secondary {
     border: 1px solid #fff;
     color: #fff;
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 .btn-secondary:hover {
@@ -243,7 +251,9 @@ ul {
 }
 
 .feature-card {
-    background: #111;
+    background: rgba(17, 17, 17, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     padding: 2.5rem;
     border-radius: 1rem;
     border: 1px solid #333;
@@ -290,7 +300,9 @@ ul {
 }
 
 .projects-card {
-    background: #111;
+    background: rgba(17, 17, 17, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     padding: 2.5rem;
     border-radius: 1rem;
     border: 1px solid #333;
@@ -349,7 +361,9 @@ ul {
 }
 
 .comparison-card {
-    background: #111;
+    background: rgba(17, 17, 17, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     padding: 2.5rem;
     border-radius: 1rem;
     border: 1px solid #333;
@@ -399,7 +413,9 @@ ul {
 }
 
 .doc-card {
-    background: #111;
+    background: rgba(17, 17, 17, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     padding: 2rem;
     border-radius: 1rem;
     border: 1px solid #333;
