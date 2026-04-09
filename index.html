@@ -11,18 +11,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
     <script src="scripts/liquidGL.js" defer></script>
 
-    <style>
-        .liquidGL {
-            position: relative;
-            z-index: 2;
-            border-radius: 20px;
-            overflow: hidden;
-        }
-
-        .liquid-content {
-            position: relative;
-            z-index: 3;
-        }
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    liquidGL({
+        target: ".liquidGL",
+        refraction: 0.05,
+        frost: 2,
+        shadow: true,
+        specular: true
+    });
+});
+</script>
     </style>
 </head>
 <body id="home-page">
