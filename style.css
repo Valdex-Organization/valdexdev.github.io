@@ -36,23 +36,6 @@ ul {
     height: 70px;
 }
 
-/* Liquid Glass */
-.glass {
-    background: rgba(255,255,255,0.05);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255,255,255,0.1);
-}
-
-#liquidgl {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
 /* Navigation */
 #navbar {
     position: fixed;
